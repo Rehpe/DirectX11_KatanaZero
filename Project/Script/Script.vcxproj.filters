@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Default">
+      <UniqueIdentifier>{1e94675a-41c5-4a5d-8f6b-e7454d34ad7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{049136e6-6d65-402a-a60d-36eb3d09274b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{6da3c7a0-594c-49c6-afff-9b9a5b21c25e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Player">
+      <UniqueIdentifier>{b939bb72-c93c-497b-b66e-f6135a30f6ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Platform">
+      <UniqueIdentifier>{ca1e8779-e59b-40b5-a42e-ffbd44c9d65d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Projectile">
+      <UniqueIdentifier>{bb01866f-7967-4684-b6b5-dbba4621d59c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Enemy">
+      <UniqueIdentifier>{2ce7955d-c4ff-4831-a86e-fc63eb74f962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Player">
+      <UniqueIdentifier>{c98fcd3c-2b5a-45e4-9e2d-0f06ee42ae23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Enemy">
+      <UniqueIdentifier>{d3ad5f47-12d5-40b8-92c5-74c73d210375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Enemy\Gangster">
+      <UniqueIdentifier>{16668dac-1acf-4a8a-b8a0-e3cb73c3b604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Enemy\Grunt">
+      <UniqueIdentifier>{fee10cd5-f51e-4049-925f-900ba8a4fc49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Effect">
+      <UniqueIdentifier>{a8df0935-fcba-4b0b-b79f-d35a6867f95c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Map">
+      <UniqueIdentifier>{9aed8c79-6850-4bfd-85fb-803c45537b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{35792a50-6a78-45ba-b065-8427b4fc109f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\EffectManager">
+      <UniqueIdentifier>{bc43ceb9-6dcf-4502-8746-d49b2862cef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ScriptManager">
+      <UniqueIdentifier>{091962db-674f-489f-ab98-ce1330a8ea68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\CLevelSaveLoad">
+      <UniqueIdentifier>{765fbdd9-46f4-43a0-8589-da33e7684c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIScript">
+      <UniqueIdentifier>{37870862-2598-4802-a9b3-c6d513a360ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\GameManager">
+      <UniqueIdentifier>{f3d5a9af-dae8-4878-9ac6-2e5dbd4c997c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraMoveScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissileScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CScriptManager.h">
+      <Filter>Manager\ScriptManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerIdleState.h">
+      <Filter>State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerIdletoRunState.h">
+      <Filter>State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerFallState.h">
+      <Filter>State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerRollState.h">
+      <Filter>State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerAttackState.h">
+      <Filter>State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerFlipState.h">
+      <Filter>State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerWallGrabState.h">
+      <Filter>State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerDoorBreakState.h">
+      <Filter>State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerHurtFlyState.h">
+      <Filter>State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerHurtGroundState.h">
+      <Filter>State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerRunState.h">
+      <Filter>State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerWallSlideState.h">
+      <Filter>State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerRuntoIdleState.h">
+      <Filter>State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerJumpState.h">
+      <Filter>State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerCrouchState.h">
+      <Filter>State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerPostCrouchState.h">
+      <Filter>State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerPreCrouchState.h">
+      <Filter>State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CGroundScript.h">
+      <Filter>Script\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="CRampScript.h">
+      <Filter>Script\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="COneWayPlatformScript.h">
+      <Filter>Script\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="CBreakableFloorScript.h">
+      <Filter>Script\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="CWallScript.h">
+      <Filter>Script\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="CAttackSpriteScript.h">
+      <Filter>Script\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemyScript.h">
+      <Filter>Script\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemyDetectorScript.h">
+      <Filter>Script\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemyGruntScript.h">
+      <Filter>Script\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CGruntIdleState.h">
+      <Filter>State\Enemy\Grunt</Filter>
+    </ClInclude>
+    <ClInclude Include="CGruntRunState.h">
+      <Filter>State\Enemy\Grunt</Filter>
+    </ClInclude>
+    <ClInclude Include="CGruntWalkState.h">
+      <Filter>State\Enemy\Grunt</Filter>
+    </ClInclude>
+    <ClInclude Include="CGruntAttackState.h">
+      <Filter>State\Enemy\Grunt</Filter>
+    </ClInclude>
+    <ClInclude Include="CGruntHurtFlyState.h">
+      <Filter>State\Enemy\Grunt</Filter>
+    </ClInclude>
+    <ClInclude Include="CGruntHurtGroundState.h">
+      <Filter>State\Enemy\Grunt</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerScript.h">
+      <Filter>Script\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CGruntTurnState.h">
+      <Filter>State\Enemy\Grunt</Filter>
+    </ClInclude>
+    <ClInclude Include="CGruntAttackSpriteScript.h">
+      <Filter>Script\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemyGangsterScript.h">
+      <Filter>Script\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CGangsterAttackState.h">
+      <Filter>State\Enemy\Gangster</Filter>
+    </ClInclude>
+    <ClInclude Include="CGangsterHurtFlyState.h">
+      <Filter>State\Enemy\Gangster</Filter>
+    </ClInclude>
+    <ClInclude Include="CGangsterHurtGroundState.h">
+      <Filter>State\Enemy\Gangster</Filter>
+    </ClInclude>
+    <ClInclude Include="CGangsterTurnState.h">
+      <Filter>State\Enemy\Gangster</Filter>
+    </ClInclude>
+    <ClInclude Include="CGangsterWalkState.h">
+      <Filter>State\Enemy\Gangster</Filter>
+    </ClInclude>
+    <ClInclude Include="CGangsterIdleState.h">
+      <Filter>State\Enemy\Gangster</Filter>
+    </ClInclude>
+    <ClInclude Include="CGangsterAimState.h">
+      <Filter>State\Enemy\Gangster</Filter>
+    </ClInclude>
+    <ClInclude Include="CGangsterRunState.h">
+      <Filter>State\Enemy\Gangster</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffectScript.h">
+      <Filter>Script\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffectManager.h">
+      <Filter>Manager\EffectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CDoorScript.h">
+      <Filter>Script\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CGangsterBulletScript.h">
+      <Filter>Script\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="CLaserScript.h">
+      <Filter>Script\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevelSaveLoad.h">
+      <Filter>Manager\CLevelSaveLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="CHudScript.h">
+      <Filter>UIScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameManagerScript.h">
+      <Filter>Manager\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CFanScript.h">
+      <Filter>Script\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CLaserSwitchScript.h">
+      <Filter>Script\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CCursorScript.h">
+      <Filter>UIScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CLightFlickerScript.h">
+      <Filter>Script\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CTitleScript.h">
+      <Filter>UIScript</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraMoveScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissileScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CScriptManager.cpp">
+      <Filter>Manager\ScriptManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerIdleState.cpp">
+      <Filter>State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerIdletoRunState.cpp">
+      <Filter>State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerFallState.cpp">
+      <Filter>State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerAttackState.cpp">
+      <Filter>State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerRollState.cpp">
+      <Filter>State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerFlipState.cpp">
+      <Filter>State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerWallGrabState.cpp">
+      <Filter>State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerDoorBreakState.cpp">
+      <Filter>State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerHurtFlyState.cpp">
+      <Filter>State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerHurtGroundState.cpp">
+      <Filter>State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerRunState.cpp">
+      <Filter>State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerWallSlideState.cpp">
+      <Filter>State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerRuntoIdleState.cpp">
+      <Filter>State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerJumpState.cpp">
+      <Filter>State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerCrouchState.cpp">
+      <Filter>State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerPostCrouchState.cpp">
+      <Filter>State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerPreCrouchState.cpp">
+      <Filter>State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CGroundScript.cpp">
+      <Filter>Script\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="CRampScript.cpp">
+      <Filter>Script\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="COneWayPlatformScript.cpp">
+      <Filter>Script\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="CBreakableFloorScript.cpp">
+      <Filter>Script\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="CWallScript.cpp">
+      <Filter>Script\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="CAttackSpriteScript.cpp">
+      <Filter>Script\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemyScript.cpp">
+      <Filter>Script\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemyDetectorScript.cpp">
+      <Filter>Script\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemyGruntScript.cpp">
+      <Filter>Script\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CGruntIdleState.cpp">
+      <Filter>State\Enemy\Grunt</Filter>
+    </ClCompile>
+    <ClCompile Include="CGruntRunState.cpp">
+      <Filter>State\Enemy\Grunt</Filter>
+    </ClCompile>
+    <ClCompile Include="CGruntWalkState.cpp">
+      <Filter>State\Enemy\Grunt</Filter>
+    </ClCompile>
+    <ClCompile Include="CGruntAttackState.cpp">
+      <Filter>State\Enemy\Grunt</Filter>
+    </ClCompile>
+    <ClCompile Include="CGruntHurtFlyState.cpp">
+      <Filter>State\Enemy\Grunt</Filter>
+    </ClCompile>
+    <ClCompile Include="CGruntHurtGroundState.cpp">
+      <Filter>State\Enemy\Grunt</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerScript.cpp">
+      <Filter>Script\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CGruntTurnState.cpp">
+      <Filter>State\Enemy\Grunt</Filter>
+    </ClCompile>
+    <ClCompile Include="CGruntAttackSpriteScript.cpp">
+      <Filter>Script\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemyGangsterScript.cpp">
+      <Filter>Script\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CGangsterAttackState.cpp">
+      <Filter>State\Enemy\Gangster</Filter>
+    </ClCompile>
+    <ClCompile Include="CGangsterHurtFlyState.cpp">
+      <Filter>State\Enemy\Gangster</Filter>
+    </ClCompile>
+    <ClCompile Include="CGangsterHurtGroundState.cpp">
+      <Filter>State\Enemy\Gangster</Filter>
+    </ClCompile>
+    <ClCompile Include="CGangsterTurnState.cpp">
+      <Filter>State\Enemy\Gangster</Filter>
+    </ClCompile>
+    <ClCompile Include="CGangsterWalkState.cpp">
+      <Filter>State\Enemy\Gangster</Filter>
+    </ClCompile>
+    <ClCompile Include="CGangsterIdleState.cpp">
+      <Filter>State\Enemy\Gangster</Filter>
+    </ClCompile>
+    <ClCompile Include="CGangsterAimState.cpp">
+      <Filter>State\Enemy\Gangster</Filter>
+    </ClCompile>
+    <ClCompile Include="CGangsterRunState.cpp">
+      <Filter>State\Enemy\Gangster</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffectScript.cpp">
+      <Filter>Script\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffectManager.cpp">
+      <Filter>Manager\EffectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CDoorScript.cpp">
+      <Filter>Script\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CGangsterBulletScript.cpp">
+      <Filter>Script\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="CLaserScript.cpp">
+      <Filter>Script\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevelSaveLoad.cpp">
+      <Filter>Manager\CLevelSaveLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="CHudScript.cpp">
+      <Filter>UIScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameManagerScript.cpp">
+      <Filter>Manager\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CFanScript.cpp">
+      <Filter>Script\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CLaserSwitchScript.cpp">
+      <Filter>Script\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CCursorScript.cpp">
+      <Filter>UIScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CLightFlickerScript.cpp">
+      <Filter>Script\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CTitleScript.cpp">
+      <Filter>UIScript</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
